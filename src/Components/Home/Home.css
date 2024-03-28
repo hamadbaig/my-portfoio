@@ -1,0 +1,4 @@
+.group :hover {
+  transition: transform 0.3 ease-in-out;
+  transform: translateX(15px);
+}
