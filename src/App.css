@@ -21,9 +21,11 @@ code {
 
 .btn:hover {
   background-color: var(--primary);
-  transition: transform 0.3s ease-out all;
+  transition: transform 2s ease-out 1s, background-color 1s ease-out,
+    color 1s ease-out;
   color: black;
 }
+
 .group {
   /* Your existing styles */
   transition: transform 0.3s ease-in-out; /* Add smooth transition for the transform property */

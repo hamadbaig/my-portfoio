@@ -1,5 +1,4 @@
 import React, { useEffect,useState } from 'react';
-import Image from "../../Assets/Images/127sportsintensity.png";
 import Image2 from "../../Assets/Images/barberweb.png";
 import Image3 from "../../Assets/Images/bodega.png";
 import Image4 from "../../Assets/Images/elysium.png";
@@ -33,7 +32,7 @@ const Work =()=>{
                   <a href='#' className='text-red-600 mx-2'>
                     <FaInstagram size={40} />
                   </a>
-                  <a href='#' className='text-red-600 mx-2'>
+                  <a href='https://www.linkedin.com/in/hammad-ahmed-340aa3218/' className='text-red-600 mx-2'>
                     <FaLinkedin size={40} />
                   </a>
                   <div className='text-red-600 mx-2' onClick={handleToggle}>
